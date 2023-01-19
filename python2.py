@@ -1,14 +1,10 @@
 import pandas as pd
 import streamlit as st
-import sklearn
 import joblib
-import pickle
-from sklearn.linear_model import LogisticRegression
-import streamlit as st
-import sklearn
-import pandas as pd
+
+
 # load the regression model that we created
-model = joblib.load("Completed_model.joblib")
+model = joblib.load("Completed_model1.joblib")
 # caching the model for faster loading
 @st.cache
 # define the prediction function
