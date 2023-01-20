@@ -31,7 +31,7 @@ So I decided to work on medical data, and tackle an important issue: Stroke.
 ### Executing program
 
 * To run the webapp, open Stroke_Prediction.py and run the code. Once you get the interface open, provide the medical parameters and click "Diagnose". 
-* The app can also be run through this * [link]([https://www.ironhack.com/](https://agnesap-stroke-prediction-application-python2-rl37cm.streamlit.app/))
+* The app can also be run through this * [link](https://agnesap-stroke-prediction-application-python2-rl37cm.streamlit.app)
 
 ## Authors
 
