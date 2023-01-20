@@ -26,11 +26,11 @@ So I decided to work on medical data, and tackle an important issue: Stroke.
 
 ### Installing
 
-* Download the project, run Python2.py to execute the web app. Open Stroke_Prediction_Project.ipynb to see how the model is trained. 
+* Download the project, run Stroke_Prediction.py to execute the web app. Open Stroke_Prediction_Project.ipynb to see how the model is trained. 
 
 ### Executing program
 
-* To run the webapp, open Python.py and run the code. Once you get the interface open, provide the medical parameters and click "Diagnose". 
+* To run the webapp, open Stroke_Prediction.py and run the code. Once you get the interface open, provide the medical parameters and click "Diagnose". 
 
 
 ## Authors
