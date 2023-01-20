@@ -9,6 +9,7 @@ import seaborn as sns
 import sklearn
 import math
 import warnings
+from PIL import Image
 
 
 # load the regression model that we created
@@ -75,6 +76,18 @@ def predict(gender,age, hypertension, heart_disease, ever_married, work_type, Re
     print(df)
     return  model.predict(df)
 
+
+image = Image.open('Brain-Attack-Stroke.jpg')
+new_image = image.resize((600, 400))
+st.image(new_image)
+
+
+
+st.header('Stroke Prediction in Patients')
+
+st.subheader("Please enter patient's data below")
+
+
 gender = st.selectbox(
      'Gender',
     ('Female', 'Male', 'Other'))
@@ -112,9 +125,9 @@ Residence_type = st.selectbox(
      'Residence',
     ('Rural', 'Urban'))
 
-avg_glucose_level = st.number_input('Enter your average glucose level in blood: ')
+avg_glucose_level = st.number_input('Enter your average glucose level in blood: ', min_value = 2, max_value = 15)
 
-bmi = st.number_input('Enter your body mass index: ')
+bmi = st.number_input('Enter your body mass index: ',  min_value = 15, max_value = 35)
 
 smoking_status = st.selectbox(
      'Smoking Status',
@@ -125,4 +138,7 @@ if st.button('Diagnose'):
     if round(result[0]) == 0:
         st.markdown(":green[The patient is not in risk for a stroke]")
     else: 
-        st.markdown(":red[The patient is in risk for a stroke]")
+        st.markdown(":red[The patient is in risk for a stroke. Please perform further medical checks!]")
+
+
+        #streamlit run "C:\Users\agnes\OneDrive\Desktop\Stroke Projekti\python2.py"
