@@ -22,11 +22,12 @@ So I decided to work on medical data, and tackle an important issue: Stroke.
 * scikit_learn==1.2.0
 * seaborn==0.12.2
 * streamlit==1.17.0
-
+* Internet Browser
 
 ### Installing
 
-* Download the project, run Stroke_Prediction.py to execute the web app. Open Stroke_Prediction_Project.ipynb to see how the model is trained. 
+* To see and edit the source code, download the project, run Stroke_Prediction.py to execute the web app. Open Stroke_Prediction_Project.ipynb to see how the model is trained. 
+* If used only for running the app, no installation is needed. 
 
 ### Executing program
 
