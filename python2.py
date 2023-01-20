@@ -141,4 +141,4 @@ if st.button('Diagnose'):
         st.markdown(":red[The patient is in risk for a stroke. Please perform further medical checks!]")
 
 
-        #streamlit run "C:\Users\agnes\OneDrive\Desktop\Stroke Projekti\python2.py"
+        #streamlit run "C:\Users\agnes\OneDrive\Desktop\Stroke Projekti\Stroke_Prediction_Application\python2.py"
