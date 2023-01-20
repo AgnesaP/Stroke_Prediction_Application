@@ -43,7 +43,7 @@ def predict(gender,age, hypertension, heart_disease, ever_married, work_type, Re
     elif heart_disease == "No":
         heart_disease =1
     
-    if work_type == "children":
+    if work_type == "Children":
         work_type = 0
     elif work_type == "Government":
         work_type = 1
